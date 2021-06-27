@@ -1,8 +1,6 @@
 #ifndef DEFAULTS_H
 #define DEFAULTS_H
 
-#define APPLICATION_NAME ("blank_sdl2")
-
 #include "SDL2/SDL_video.h"
 #define DEFAULT_WINDOW_WIDTH  (800)
 #define DEFAULT_WINDOW_HEIGHT (600)
