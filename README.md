@@ -8,9 +8,13 @@
   - XMake
 
 # Configuration
+Firstly, configure the project:
+```
+xmake f -c
+```
 You can modify the config template /src/utils/Config.h.in.
 Do not add comments (or commented-out lines) as this will break xmake.
-Config variables (the defines in the Config.h) are set in the xmake.lua file:
+Config variables (the defines in the Config.h) are set in the **xmake.lua** file:
 
 ```
 set_configvar("PROJ_NAME", "blank_sdl2")

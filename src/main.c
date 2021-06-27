@@ -61,7 +61,9 @@ Initialise(void) {
 int
 main(int argc, char* argv[]) {
   bool quit = false;
-  // Log("Starting application version %s\r\n", VERSION);
+  Log("Starting application: %s, revision: %s\r\n", VERSION, GIT_COMMIT);
+  Log("Build date: %s\r\n", GIT_COMMIT_DATE);
+  Log("Revision: %s\r\n", GIT_COMMIT);
   Initialise();
 
   while (!quit) {
