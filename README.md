@@ -1,4 +1,4 @@
-# blank_sdl2
+# SDL2 Template with XMake
 
 - A blank sdl2 project ready to go.
 - Uses xmake for build configuration, compilation, dependency management: [[link]](https://xmake.io/#/)
